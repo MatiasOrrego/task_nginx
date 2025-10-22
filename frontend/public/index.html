@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gestor de Tareas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Gestor de Tareas</h1>
+
+    <form id="task-form">
+      <input type="text" id="titulo" placeholder="Título" required />
+      <input type="text" id="descripcion" placeholder="Descripción" />
+      <select id="estado">
+        <option value="pendiente" selected>Pendiente</option>
+        <option value="completada">Completada</option>
+      </select>
+      <button type="submit">Crear</button>
+    </form>
+
+    <div id="loading" class="hidden">Cargando...</div>
+    <ul id="task-list"></ul>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
