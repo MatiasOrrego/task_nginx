@@ -1,0 +1,57 @@
+# ── Node / monorepo ─────────────────────────────────────────────
+node_modules/
+dist/
+build/
+.out/
+.next/
+.cache/
+.temp/
+tmp/
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Frontend (Vite/React)
+frontend/dist/
+frontend/.vite/
+
+# Logs / runtime
+logs/
+*.log
+*.pid
+*.pid.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Entornos (mantener ejemplos)
+.env
+.env.*
+backend/.env
+frontend/.env
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# Docker / Compose (archivos locales)
+docker-compose.override.yml
+*.tar
+
+# Datos locales (si usás bind en vez de volumen nombrado)
+db_data/
+pgdata/
+
+# IDE / SO
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.Spotlight-V100
+.Trashes

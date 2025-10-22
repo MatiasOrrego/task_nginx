@@ -1,0 +1,9 @@
+# Ignore node modules and build artifacts
+node_modules
+dist
+npm-debug.log
+.env
+.env.local
+.vscode
+.git
+*.tgz
