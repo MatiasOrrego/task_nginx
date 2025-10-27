@@ -2,9 +2,9 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-import app from "./app";
-import { Env } from "./config/env";
-import { initDB } from "./db/init";
+import app from "./app.js";
+import { Env } from "./config/env.js";
+import { initDB } from "./db/init.js";
 
 (async () => {
     await initDB();

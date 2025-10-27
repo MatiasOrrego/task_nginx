@@ -1,5 +1,5 @@
-import pool from "../db/pool";
-import type { Task, TaskEstado } from "../models/task.model";
+import pool from "../db/pool.js";
+import type { Task, TaskEstado } from "../models/task.model.js";
 
 
 //Trae todas las taras
